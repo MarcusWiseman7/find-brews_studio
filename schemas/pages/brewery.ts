@@ -9,4 +9,9 @@ export default {
             type: 'seo',
         }
     ],
+    preview: {
+        select: {
+            title: 'title',
+        },
+    },
 };

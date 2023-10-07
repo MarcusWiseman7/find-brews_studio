@@ -6,13 +6,13 @@ export default {
         {
             name: 'title',
             title: 'Title',
-            type: 'string',
+            type: 'localeString',
             description: 'Title for the page, use {variable_name} syntax for variables',
         },
         {
             name: 'description',
             title: 'Description',
-            type: 'text',
+            type: 'localeString',
             description: 'Description for the page, use {variable_name} syntax for variables',
         },
     ],

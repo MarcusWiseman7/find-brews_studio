@@ -1,6 +1,6 @@
 export default {
-    name: 'beer',
-    title: 'Beer page',
+    name: 'home',
+    title: 'Home page',
     type: 'document',
     fields: [
         {

@@ -8,14 +8,22 @@ import localeBlockContent from './locale/localeBlockContent';
 import localeString from './locale/localeString';
 import localeText from './locale/localeText';
 import beer from './pages/beer';
+import blog from './pages/blog';
+import blogPost from './pages/blogPost';
 import brewery from './pages/brewery';
+import home from './pages/home';
+import profile from './pages/profile';
 
 export const schemaTypes = [
     post,
     author,
     tag,
+    home,
     beer,
     brewery,
+    profile,
+    blog,
+    blogPost,
     seo,
     blockContent,
     localeString,
