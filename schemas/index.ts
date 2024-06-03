@@ -13,6 +13,7 @@ import blogPost from './pages/blogPost';
 import brewery from './pages/brewery';
 import home from './pages/home';
 import profile from './pages/profile';
+import email from './email/template';
 
 export const schemaTypes = [
     post,
@@ -30,4 +31,5 @@ export const schemaTypes = [
     localeText,
     localeBlockContent,
     mainImage,
+    email,
 ];
